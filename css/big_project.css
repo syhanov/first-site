@@ -1,0 +1,286 @@
+* {
+    box-sizing: border-box;
+}
+@font-face {
+  font-family: 'QuiteChocolatey'; /* Имя, которым будете пользоваться */
+  src: url('../css/fonts/Quite\ Chocolatey.ttf') format('woff2'); /* Путь к файлу */
+  font-weight: normal , bold; /* Начертание (normal, bold) */
+  font-style: normal;  /* Стиль (normal, italic) */
+}
+@font-face {
+  font-family: 'MyriadPro'; /* Имя, которым будете пользоваться */
+  src: url('../css/fonts/MyriadPro-Light.otf') format('woff2'), /* Путь к файлу */
+       url(../css/fonts/MYRIADPRO-REGULAR.OTF) format('woff');
+  font-weight: normal , lighter; /* Начертание (normal, bold) */
+  font-style: normal;  /* Стиль (normal, italic) */
+}
+
+body, header {
+    margin: 0;
+    padding: 0;
+}
+.header {
+    height: 680px;
+    margin: 0 auto;
+    background-image: url(/img/Layer\ 13.png);
+    background-color: #dd2211;
+    background-size: cover; 
+    /* Центрировать */
+    background-position: ce; 
+    /* Запретить повторение */
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+}
+.container {
+    max-width: 1010px;
+    margin: 0 auto;
+}
+.menu_iner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu {
+    display: flex;
+    list-style: none;
+}
+.menu_item {
+    padding: 0px 10px 0 0 ;
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color: white;
+}
+.ssilka {
+    padding: 5px 15px;
+    text-decoration: none;
+    color: white;
+    transition: background-color 0.5s ease;
+    display: inline-block;
+}
+.ssilka:hover {
+    background-color: #130e27;
+    border-radius: 5px;
+}
+.logo {
+    font-family: "QuiteChocolatey";
+    font-size: 80px;
+    font-weight: normal;
+    color: white;
+}
+.sell {
+    font-family: "Montserrat";
+    margin: 0;
+    margin-bottom: -30px;
+    font-size: 85px;
+    text-transform: uppercase;
+    color: #130e27;
+}
+.text {
+ padding: 60px 500px 0 0;
+}
+.car {
+    font-family: "Montserrat";
+    margin: 0;
+    margin-top: -30px;
+    font-size: 85px;
+    text-transform: uppercase;
+    color: white;
+}
+.many_text {
+    color: white;
+    font-family: "MyriadPro";
+    line-height: 28px;
+    font-size: 20px;
+}
+.services {
+    height: 550px;
+    margin: 0 ;
+}
+.container2 {
+    max-width: 1010px;
+    margin: 0 auto;
+}
+.ou {
+    display: flex;
+    padding: 45px 0 97px;
+}
+.our {
+    font-family: "Montserrat";
+    font-size: 50px;
+    text-transform: uppercase;
+    color: #dd2211;
+    font-weight: bold; 
+    padding-right: 15px;
+}
+.service {
+    font-family: "Montserrat";
+    font-size: 50px;
+    text-transform: uppercase;
+    color: #130e27;
+    font-weight: bold;
+}
+.service_main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.service_info {
+    text-align: center;
+    width: 175px;
+}
+.try {
+    height: 155px;
+    display: flex;
+    justify-content: center;
+}
+.service_text {
+    margin: 0;
+    padding-top: 45px;
+    font-family: "MyriadPro";
+    line-height: 28px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.story {
+    background-color: #130e27;
+}
+.container3 {
+    width: 1010px;
+    margin: 0 auto;
+}
+.story_iner {
+    display: flex;
+    justify-content: space-between;
+    height: 118px;
+    align-items: center;
+}
+.story_text {
+    margin: 0;
+    color: white;
+    font-family: "MyriadPro";
+    line-height: 28px;
+    font-size: 18px;
+}
+.story_button {
+    height: 55px;
+    width: 270px;
+    color: white;
+    font-family: "MyriadPro";
+    font-size: 20px;
+    font-weight: normal;
+    background-color: #dd2211;
+    border: 0px;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.5s ease;
+}
+.story_button:hover {
+    background-color: #8b1509;
+}
+.story_text_div {
+    padding: 0 165px 0 20px;
+}
+.call {
+    height: 615px;
+    background-color: #efefef;
+}
+.container4 {
+    width: 1010px;
+    margin: 0 auto;
+}
+.call_logo_div {
+    text-align: center;
+    font-family: "Montserrat";
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #130e27;
+    font-weight: bold;
+    padding: 30px 0;
+
+}
+.cards {
+    display: flex;
+    justify-content: center;
+}
+.item {
+    height: 390px;
+    width: 320px;
+    display: flex;
+    align-items: center;
+    flex-flow: column nowrap;
+    background-color: white;
+    margin: 0 15px;
+}
+.item_text {
+    margin: 0;
+    font-family: "MyriadPro";
+    line-height: 28px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.item_text_first {
+    margin-top: 25px;
+    font-family: "MyriadPro";
+    line-height: 28px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.price {
+    margin: 13px 0;
+    font-family: "Montserrat";
+    font-size: 50px;
+    text-transform: uppercase;
+    color: #dd2211;
+    font-weight: bold;
+}
+.price2 {
+    width: 210px;
+    height: 44px;
+    background-color: #dd2211;
+    text-transform: uppercase;
+    color: white;
+    font-family: "Montserrat";
+    font-size: 20px;
+    margin-top: 35px;
+    border: 0;
+    border-radius: 5px;
+    margin-top: 25px;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.5s ease;
+}
+.price2:hover {
+  background-color: #8b1509;
+}
+.footer {
+    height: 188px;
+    background-color: #130e27;
+}
+.container5 {
+    width: 1010px;
+    margin: 0 auto;
+}
+.footer_iner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 188px;
+}
+.first_footer_text {
+    font-family: sans-serif;
+    color: white;
+}
+.second_footer_text {
+    font-family: sans-serif;
+    color: #dd2211;
+}
+.last_class {
+    font-family: "QuiteChocolatey";
+    font-size: 80px;
+    font-weight: normal;
+    color: #dd2211;
+}
