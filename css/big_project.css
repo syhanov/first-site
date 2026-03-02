@@ -22,7 +22,7 @@ body, header {
 .header {
     height: 680px;
     margin: 0 auto;
-    background-image: url(/img/Layer\ 13.png);
+    background-image: url(../img/Layer\ 13.png);
     background-color: #dd2211;
     background-size: cover; 
     /* Центрировать */
